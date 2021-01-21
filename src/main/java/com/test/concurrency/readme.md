@@ -23,7 +23,7 @@ wait() - releases the lock and is in WAIT state.<br>
 notify()/notifyAll() - release a Thread in WAIT state and puts in RUNNABLE state.<br>
 NEW -> RUNNABLE -> TERMINATED
 BLOCKED (synchronized lock)
-WAITING (Parked in the wait lsit)
+WAITING (Parked in the wait lsi t)
 TIMED WAITING <br>
 state of the thread -> _t.getState()_<br>
 A variable is said to be visible if the writes made on it are made visible.<br>
